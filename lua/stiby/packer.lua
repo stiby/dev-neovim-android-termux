@@ -30,5 +30,7 @@ return require('packer').startup(function(use)
   use({'hrsh7th/cmp-nvim-lsp'})
   use({'williamboman/mason.nvim'})
   use({'williamboman/mason-lspconfig.nvim'})
-
+  use({'feline-nvim/feline.nvim'})
+  use({'nvim-tree/nvim-web-devicons'})
+  use({'lewis6991/gitsigns.nvim'})
 end)
